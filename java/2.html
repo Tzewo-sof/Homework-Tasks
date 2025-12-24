@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+// EXERCISE 2: Leap Year Checker
+// ==========================================
+function isLeapYear(year) {
+// Divisible by 4 AND NOT 100... OR divisible by 400
+    return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+}
+
+console.log("\n--- Ex 2: Leap Year ---");
+console.log("Is 2024 a leap year?", isLeapYear(2024)); // true
+console.log("Is 2023 a leap year?", isLeapYear(2023)); // false</script>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+.box {
+    width: 200px;
+    height: 100px;
+    background: rgb(142, 187, 202);
+    border: 2px solid navy;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    position: static; 
+}
+
+.box1 {
+    position: static;
+}
+
+.box2 {
+    position: relative; 
+    left: 20px;  
+    top: 30px;   
+    background: lightgreen;
+}
+
+.inner-box {
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 40px;
+    background: gold;
+    border: 2px solid red;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.box3 {
+    background: lightcoral;
+}

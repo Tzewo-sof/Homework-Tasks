@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This is the head, the "invisible" information for the browser -->
+
+    <!-- 1. Basic Setup & Character Set -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog Post!</title>
+
+    <!-- 2. Base URL for all relative links -->
+    <base href="https://www.myawesomeblog.com/">
+
+    <!-- 3. SEO and Page Information (for Google) -->
+    <meta name="description" content="Learn all about the structure of a webpage with this simple guide.">
+    <meta name="keywords" content="HTML, web development, learning, semantics">
+    <meta name="author" content="Biruk Gebru">
+
+    <!-- 4. Open Graph Data (for Social Media previews) -->
+    <meta property="og:title" content="A Simple Guide to Webpage Structure">
+    <meta property="og:description" content="Check out my first blog post where I break down HTML!">
+    <meta property="og:image" content="images/social-card-image.jpg">
+    <meta property="og:url" content="https://www.myawesomeblog.com/posts/my-first-post">
+
+</head>
+
+<body>
+    <!-- This is the body, the visible content of the page -->
+
+    <header> <!-- The top banner of our "magazine page" -->
+        <h1>Biruk's Awesome Blog</h1>
+        <nav> <!-- The main navigation menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!-- The main content area -->
+
+        <article> <!-- The independent, self-contained blog post -->
+            <h2>My First Blog Post!</h2>
+            <p>Posted by Biruk on October 26th</p>
+
+            <section> <!-- A themed chapter: The Introduction -->
+                <h3>Introduction</h3>
+                <p>This is the first section of my blog post. Here I introduce the topic.</p>
+            </section>
+
+            <section> <!-- Another themed chapter: The Main Point -->
+                <h3>The Main Point</h3>
+                <p>This is the main body of the post. I explain my ideas here.</p>
+                <!-- Imagine a cool JavaScript chart would go here -->
+                <noscript>
+                    <p><strong>(Note: An interactive chart would be displayed here if you had JavaScript enabled.)</strong></p>
+                </noscript>
+            </section>
+
+        </article>
+
+        <aside> <!-- The sidebar with related, but separate, content -->
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="posts/another-post">Another Great Post</a></li>
+                <li><a href="posts/a-third-post">A Third Post</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer> <!-- The bottom of our "magazine page" -->
+        <p>&copy; 2023 Biruk's Awesome Blog</p>
+        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>

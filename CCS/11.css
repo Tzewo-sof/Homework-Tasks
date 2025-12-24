@@ -1,0 +1,106 @@
+ 
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            /* Required Body background color: rgb(245, 245, 245) */
+            background-color: rgb(245, 245, 245);
+        }
+
+        /* Set default colors for headings and paragraphs */
+        h1, h2, h3, h4, h5, h6 {
+            /* Required Heading color: Rgb (33,33,33) */
+            color: rgb(33, 33, 33);
+        }
+
+        p {
+            /* Required Paragraph color: Rgb (70, 70, 70) */
+            color: rgb(70, 70, 70);
+            line-height: 1.6;
+        }
+
+       
+        .wrapper {
+            /* Create wrapper box, Give it background color -> white */
+            background-color: white;
+            max-width: 1200px; /* Standard maximum width for a desktop wrapper */
+            margin: 20px auto; /* Center the wrapper and add some space around it */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border-radius: 8px; /* Added for better aesthetics */
+            overflow: hidden; /* Clear floats */
+        }
+
+       
+        .box {
+            padding: 20px;
+            margin-bottom: 5px; /* Visual separation between main blocks */
+            /* Add border for visualization until familiar with the layout */
+            border: 1px solid #ccc; 
+            border-radius: 4px;
+        }
+
+       
+        header {
+            display: flex; /* Use flexbox to divide into logo and navigation */
+            justify-content: space-between; /* Put space between brand and navigation */
+            align-items: center;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .header-brand, .nav-links {
+            padding: 10px 0;
+        }
+        
+        .header-brand h1 {
+            margin: 0;
+            color: #007bff; /* Example accent color */
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: rgb(33, 33, 33);
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+       
+        .content {
+            display: flex; /* Use flexbox to divide into main content and sidebar */
+            gap: 20px; /* Space between main content and sidebar */
+            min-height: 60vh; /* Ensure content area is tall */
+            border: none; /* Remove the generic 'box' border for cleaner inner layout */
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+        .main-content {
+            flex: 3; /* Takes 3 parts of the space */
+            padding: 20px;
+            /* Border for visualization */
+            border: 1px solid #e0e0e0; 
+            border-radius: 4px;
+        }
+
+        .sidebar {
+            flex: 1; /* Takes 1 part of the space */
+            padding: 20px;
+            background-color: rgb(250, 250, 250);
+            /* Border for visualization */
+            border: 1px solid #e0e0e0; 
+            border-radius: 4px;
+        }
+
+       
+      
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgb(230, 230, 230);
+            color: rgb(33, 33, 33);
+            font-size: 0.9em;
+            margin-top: 5px; /* Space from content box */
+            border: none;
+            border-radius: 0 0 8px 8px; /* Only bottom corners rounded */
+        }
+
+   
